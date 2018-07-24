@@ -49,11 +49,3 @@ print('the length of Alice in Wonderland in this text file is: ' + str(len(raw))
 
 print(raw[163000:])
 
-# Calculate a table for each letter in the alphabet from a-z, and count how many times each letter appears in Alice in Wonderland (fancy word for counting stuff is "frequency distribution" - because you are counting the frequency of something)
-# a: 34,560
-# b: 5,027
-# ...
-# z: 893
-
-
-
