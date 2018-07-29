@@ -13,7 +13,7 @@ class TestLetterCounter(unittest.TestCase):
         def testCounterLogicForLetterD(self):
             assertEquals(container["d"], 2)
         
-        def testCounterLogicFoLetterZ(self):
+        def testCounterLogicForLetterZ(self):
             assertEquals(container["z"], 1)
         
         def testInvalidStatement(self):
