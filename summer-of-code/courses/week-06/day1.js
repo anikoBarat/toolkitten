@@ -33,12 +33,12 @@ function showName (firstName, lastName) {
 
 document.getElementById("anavirginia").innerHTML = showName("Ashcan", "Consortia")
 
-// $(function() {
-//   var selections = []
-//   $(".myButton").click(function() {
-//     selections.push(this.prompt("name"))
-//   })
-// });
+ $(function() {
+   var selections = []
+   $(".myButton").click(function() {
+     selections.push(this.prompt("name"))
+   })
+ });
 
 // create a button to click above and update #anavirginia to be selections
 
@@ -84,11 +84,11 @@ var y = 7
 // declare your variables at the top of the scope
 
 
+
 function celebrityIDCreator (theCelebrities) {
-  var i
-  var uniqueID = 100
-  for (i = 0; i < theCelebrities.length; i++) {
-    theCelebrities[i]["id"] = function () {
+  let uniqueID = 100
+  for (let i = 0; i < theCelebrities.length; i++) {
+    theCelebrities[i]["id"] = function(){
       return uniqueID + i;
     }
   }
