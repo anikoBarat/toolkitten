@@ -87,7 +87,6 @@ inputField.addEventListener("change", biggerNum);
 function angryBoss(){
     var ask = document.getElementById("angry_input").value;
     alert("WADDAYA MEAN ON '" + ask + "'?!\nYou are FIRED!!!!");
-    
 }
 
 document.getElementById("angry_input").addEventListener("change", angryBoss);
